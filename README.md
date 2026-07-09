@@ -19,8 +19,6 @@ Designed for users who want to reduce local network tracking while avoiding pred
 - Safe to run as root via **cron** or **systemd timer**
 - Easy to customize interfaces, delay range, and Wi-Fi behavior
 
-*Example of the script executing with random jitter and detailed timestamped logging.*
-
 ## Why Add Jitter and Timestamps?
 
 - **Jitter** prevents attackers or network operators from correlating your activity to exact hourly changes.
