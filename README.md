@@ -1,5 +1,10 @@
 # MAC Changer - Hourly Randomizer with Jitter
 
+<p align="center">
+  <img src="images/mac_changer.png" alt="Mac_Changer - Automatically randomize your MAC address every hour with jitter for better privacy" width="720">
+</p>
+
+
 **A lightweight, privacy-focused Linux tool that automatically randomizes your network interface MAC addresses every hour with built-in jitter (random delay) and full execution timestamps.**
 
 Designed for users who want to reduce local network tracking while avoiding predictable change patterns.
@@ -13,6 +18,8 @@ Designed for users who want to reduce local network tracking while avoiding pred
 - Detailed logging to `/var/log/macchange.log`
 - Safe to run as root via **cron** or **systemd timer**
 - Easy to customize interfaces, delay range, and Wi-Fi behavior
+
+*Example of the script executing with random jitter and detailed timestamped logging.*
 
 ## Why Add Jitter and Timestamps?
 
