@@ -1,0 +1,18 @@
+[Unit]
+Description=Hourly MAC Address Randomizer with Jitter
+Documentation=https://github.com/yourusername/mac-changer-hourly
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/macchange.sh
+User=root
+Group=root
+StandardOutput=journal
+StandardError=journal
+# Give the script enough time to complete (including jitter)
+TimeoutStartSec=4000
+
+[Install]
+WantedBy=multi-user.target

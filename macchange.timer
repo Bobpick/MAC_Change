@@ -1,0 +1,13 @@
+[Unit]
+Description=Run MAC Changer every hour (jitter handled inside script)
+Documentation=https://github.com/yourusername/mac-changer-hourly
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+# We do NOT use RandomizedDelaySec here because the script implements
+# its own privacy-focused jitter (1-59 minutes). Using both can make
+# timing too unpredictable for some users.
+
+[Install]
+WantedBy=timers.target
