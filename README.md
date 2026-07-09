@@ -1,7 +1,7 @@
 # MAC Changer - Hourly Randomizer with Jitter
 
 <p align="center">
-  <img src="images/mac_changer.png" alt="Mac_Changer - Automatically randomize your MAC address every hour with jitter for better privacy" width="720">
+  <img src="mac_changer.png" alt="Mac_Changer - Automatically randomize your MAC address every hour with jitter for better privacy" width="720">
 </p>
 
 
